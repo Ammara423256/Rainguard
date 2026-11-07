@@ -1,0 +1,65 @@
+[
+  {
+    "station": "MABAD",
+    "column": "Min/Max",
+    "rule": "min_gt_max",
+    "n_changed": 1,
+    "details": ""
+  },
+  {
+    "station": "MANGLA",
+    "column": "Precipitation",
+    "rule": "range_plausibility",
+    "n_changed": 6,
+    "details": "outside [0.0, 400.0]"
+  },
+  {
+    "station": "MANGLA",
+    "column": "Max",
+    "rule": "mad_outlier",
+    "n_changed": 6,
+    "details": "k=5.0"
+  },
+  {
+    "station": "MANGLA",
+    "column": "Min/Max",
+    "rule": "min_gt_max",
+    "n_changed": 1766,
+    "details": ""
+  },
+  {
+    "station": "MURREE",
+    "column": "Max",
+    "rule": "range_plausibility",
+    "n_changed": 1144,
+    "details": "outside [-25.0, 55.0]"
+  },
+  {
+    "station": "MURREE",
+    "column": "Min",
+    "rule": "range_plausibility",
+    "n_changed": 394,
+    "details": "outside [-25.0, 55.0]"
+  },
+  {
+    "station": "MURREE",
+    "column": "Max",
+    "rule": "mad_outlier",
+    "n_changed": 38,
+    "details": "k=5.0"
+  },
+  {
+    "station": "MURREE",
+    "column": "Min",
+    "rule": "mad_outlier",
+    "n_changed": 92,
+    "details": "k=5.0"
+  },
+  {
+    "station": "MURREE",
+    "column": "Min/Max",
+    "rule": "min_gt_max",
+    "n_changed": 96,
+    "details": ""
+  }
+]
